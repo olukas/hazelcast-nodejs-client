@@ -7,7 +7,7 @@ var options = {
 };
 
 if (process.platform === 'win32') {
-    scriptName = scriptName + '.bat';
+    scriptName = scriptName + '.ps1';
 } else if (process.platform === 'linux' || process.platform === 'darwin') {
     scriptName = scriptName + '.sh'
 }
